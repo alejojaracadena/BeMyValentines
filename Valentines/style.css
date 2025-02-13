@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe5e5;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: 100px;
+}
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 300px;
+    
+}
+.container .Btn {
+    display: flex;
+    gap: 50px;
+    
+}
+
+a#yes {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    background-color: rgba(64, 216, 64, 0.651);
+    border-radius: 15px;
+    
+}
+
+a#no1 {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    background-color: rgba(238, 41, 41, 0.767);
+    border-radius: 15px;
+}
+a#move-random {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    background-color: rgba(238, 41, 41, 0.767);
+    border-radius: 15px;
+}
